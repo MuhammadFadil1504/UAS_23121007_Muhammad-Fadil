@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-tambah {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-tambah:hover {
+    background-color: #e64a19;
+}
+
+.button-add{
+  text-decoration: none;
+  color: white;
+}
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.data-table th {
+    background-color: #ffc107;
+    color: black;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.btn-update, .btn-delete {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-update {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-update:hover {
+    background-color: #45a049;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f;
+}
